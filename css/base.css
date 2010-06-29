@@ -1,0 +1,96 @@
+/* Document Body */
+body { padding: 0; margin: 0; }
+body, input, textarea { font: 13px/1.5 Georgia, "Times New Roman", Times, serif; }
+
+p { line-height: 20px; }
+
+/* Links */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Vertical Rhythm  */
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form, .gallery-row, .comment-list ul, .comment-list ol { margin-bottom: 20px; }
+.comment, .navigation-links { margin-bottom: 26px; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: normal; clear: both; }
+h1 { font-size: 28px; line-height: 28px; padding: 5px 0px; }
+h2 { font-size: 24px; line-height: 22px; padding: 5px 0px; }
+h3 { font-size: 20px; line-height: 20px; padding: 5px 0px; }
+h4 { font-size: 18px; line-height: 18px; padding: 5px 0px; }
+h5 { font-size: 16px; line-height: 18px; padding: 5px 0px; }
+h6 { font-size: 14px; line-height: 16px; }
+
+/* Text Elements */
+address { font-style: italic; }
+abbr[title], acronym[title], dfn[title] { cursor: help; }
+
+blockquote { color: #666; font-style: italic; border-left: 1px solid #ddd; margin-left: 15px; padding-left: 10px; }
+
+strong { font-weight: bold; }
+em, dfn, cite { font-style: italic; }
+dfn { font-weight: bold; }
+
+sup { bottom: 1ex; }
+sub { top: .5ex; }
+small { font-size: 12px; }
+
+del { text-decoration: line-through; }
+ins { text-decoration: underline; }
+
+code, pre {  line-height: 15px; }
+var, kbd, samp, code, pre { font: 12px/1.4 Consolas, "Andale Mono", Courier, "Courier New", monospace; }
+kbd { font-weight: bold; }
+samp, var { font-style: italic; }
+pre { white-space: pre; overflow: auto; padding: 10px; clear: both; }
+code { padding: 0px 3px; }
+
+/* Lists: (ul, ol, dl) */
+ul, ol, dl { margin-left: 15px; }
+.nav { margin-left: 0px; }
+.entry-content ul, .entry-content ol, #search-query { margin-left: 25px; }
+
+li ul, li ol { margin-bottom: 0; }
+ul ul, ol ol, ul ol, ol ul { margin-bottom: 0; }
+
+ol { list-style-type: decimal; }
+
+ul { list-style-type: disc; }
+ul ul { list-style-type: circle; }
+ul ul ul { list-style-type: square; }
+
+dt { font-weight: bold; }
+
+.fat li { margin-bottom: 10px; }
+
+/* Forms */
+input, textarea, button { border-style: solid; border-width: 1px; font-size: 14px; }
+input, textarea, button { font-family: Arial, Helvetica, sans-serif; padding: 6px; }
+button { font-size: 13px; padding: 6px 13px 6px 13px; cursor: pointer; border: 0; }
+.ie7 button { padding: 3px 6px; }
+
+/* Images */
+img.alignleft { float: left; margin-right: 20px; margin-top: 5px; }
+img.alignright { display: block; float: right; margin-left: 20px; margin-top: 5px; }
+img.aligncenter { margin-left: auto; margin-right: auto; display: block; clear: both; margin-top: 5px; }
+
+/* [gallery] */
+.gallery { margin: auto; }
+.gallery-image { margin-left: 0; }
+.gallery-caption { margin-left: 0; }
+.gallery-item { float: left; text-align: left; margin-left: 0; }
+
+.gallery-columns-5 { margin-left: 22px; margin-bottom: 17px; }
+.entry-text .gallery-columns-5 { margin-left: 12px; margin-bottom: 8px; }
+.gallery-columns-8 { margin-left: 14px; margin-bottom: 9px; }
+.gallery-column-1 { margin-left: 0!important; }
+
+/* [gallery] + navigation clearfix */
+.gallery-row:after, .navigation-links:after, .container:after, .menu:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.gallery-row, .navigation-links, .container, .menu { display: block; }
+.ie7 .gallery-row { height: 114px; }
+
+/* Basic Alignments */
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter { margin-left: auto; margin-right: auto; display: block; clear: both; }

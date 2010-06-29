@@ -1,0 +1,14 @@
+/*
+Theme Name:		UniSphere Vision
+Version: 		1.0
+Description: 	Designed by <a href="http://www.unispheredesign.com">UniSphere Design</a>.
+*/
+
+/* Reset Browser Defaults */
+@import url( 'reset.css' );
+
+/* Apply base theme styles and colors */
+@import url( 'base.css' );
+
+/* Stylistic CSS Styles */
+@import url( 'screen.css' );
