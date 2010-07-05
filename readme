@@ -1,1 +1,9 @@
 This is the v2 of Kitchenworks site. Check back for details later.
+
+changelog 0.1
+...
+-added portfolio images and configured lightbox
+-set up php contact page
+-converted existing files to html (all except contact.php)
+-configured testimonial class and added to appliance temp page
+
