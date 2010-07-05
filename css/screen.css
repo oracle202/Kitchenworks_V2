@@ -12,7 +12,7 @@ html, body { overflow-x: hidden; }
 #logo { float: left; margin: 0; padding: 0; height: 96px; line-height: 96px; }
 
 /* The navigaton bar */
-.menu { position: absolute; top: 38px; left: 275px; }
+.menu { position: absolute; top: 45px; left: 325px; }
 
 /* Menu */
 .nav, .nav * { list-style: none; }
@@ -20,7 +20,7 @@ html, body { overflow-x: hidden; }
 .nav ul li { width: 100%; }
 .nav ul li a { font-family: Arial, Helvetica, sans-serif; letter-spacing: 0; }
 
-.nav a { font-size: 20px; display: block; position: relative; padding: 0 25px; letter-spacing: -0.04em; line-height: 14px; }
+.nav a { font-size: 19px; display: block; position: relative; padding: 0 20px; letter-spacing: -0.04em; line-height: 14px; }
 
 /* Hides items under top menu */
 .nav ul { position: absolute; top: -9999em; width: 20em; /* left offset of submenus need to match (see below) */ margin-top: 2px; }
@@ -311,7 +311,7 @@ html, body { overflow-x: hidden; }
 
 #footer-widgets-container { margin: 30px 0 0 0; padding: 0; }
 #footer-widgets { width: 920px; margin: 0 auto; }
-#footer-widgets .footer-widget-box { float: left; width: 164px; }
+#footer-widgets .footer-widget-box { float: left; width: 209px; }
 
 #footer-widgets .widget { margin: 40px 10px; }
 .ie7 #footer-widgets .widget { padding-bottom: 40px; }

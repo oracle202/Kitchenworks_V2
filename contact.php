@@ -14,18 +14,111 @@ if(isset($_POST['submitted'])) {
 
 	/*****************************************************************************************************/
 	// Enter your email address in the following variable	
-	$emailTo = 'your_email@your_domain.com';
+	$emailTo = 'info@thekitchenworks.com';
 	/*****************************************************************************************************/
 	
 	$subject_email = 'Contact Form Submission from '.$name. ' | '.$subject;
 	$body = "Name: $name \n\nEmail: $email \n\Message: $message";
-	$headers = 'From: My Site <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
+	$headers = 'From: Kitchenworks.com Form <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 	
 	mail($emailTo, $subject_email, $body, $headers);
 	
 } ?>
 
-<?php include 'header.php'; ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--BEGIN html-->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+<!--BEGIN head-->
+<head profile="http://purl.org/uF/hAtom/0.1/ http://purl.org/uF/2008/03/">
+
+	<title>The Kitchenworks Inc.</title>
+
+	<!-- Meta Tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+
+	<!-- Skin -->
+	<link rel="stylesheet" href="css/skins/light/skin.css" type="text/css" media="screen, projection" />
+	<!--<link rel="stylesheet" href="css/skins/dark/skin.css" type="text/css" media="screen, projection" />-->
+    <!--<link rel="stylesheet" href="css/skins/blue/skin.css" type="text/css" media="screen, projection" />-->
+    <!--<link rel="stylesheet" href="css/skins/orange/skin.css" type="text/css" media="screen, projection" />-->
+    <!--<link rel="stylesheet" href="css/skins/green/skin.css" type="text/css" media="screen, projection" />-->
+    
+	<!-- PrettyPhoto -->
+	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" />
+    
+    <!-- jqTransform -->
+	<link rel="stylesheet" href="css/jqtransform.css" type="text/css" />
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/browserDetect.js"></script>
+	<script type="text/javascript" src="js/supersubs.js"></script>
+	<script type="text/javascript" src="js/jquery.bgiframe.min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<!--<script type="text/javascript" src="js/ChunkFive_400.font.js"></script>-->
+	<!-- The following font script reference loads the Tertre Font which supports a wider range of characters, uncomment the following line and comment the above line for it to load -->
+	<script type="text/javascript" src="js/sansation.font.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousellite.pauseOnHover.min.js"></script>
+	<script type="text/javascript" src="js/jquery.innerfade.js"></script>
+	<script type="text/javascript" src="js/jquery.jqtransform.js"></script>
+<!--END head-->
+</head>
+
+<!--BEGIN body-->
+<body>
+	
+	<!--BEGIN .container-->
+	<div class="container">
+
+		<!--BEGIN #header-container-->
+		<div id="header-container">
+			
+			<!--BEGIN #header-->
+			<div id="header">
+        
+				<!--BEGIN #logo-->
+				<h1 id="logo">
+					<a href="index.html" title="The Kitchenworks"><img src="images/kwlogo.png" alt="The Kitchenworks" class="ie6fix" /></a>
+                    
+				<!--END #logo-->
+				</h1>
+                
+				<!--BEGIN .menu-->
+				<div class="menu">
+					<ul class="nav">
+						<li><a href="index.html">Home</a></li>
+							
+						<li><a href="portfolio.html" title="Portfolio">Portfolio</a>
+					
+						</li>
+						
+                        <li><a href="appliances.html" title="Appliances">Appliances</a>
+						</li>
+						<li><a href="blog.html" title="Blog">Blog</a>
+							<ul>
+								<li><a href="post.html" title="Post Detail">Front-Loader Laundry Shoot-out!</a></li>
+								<li><a href="post.html" title="Post Detail">Miele Rotary Iron Review</a></li>
+							</ul>
+						</li>
+						<li class="current_page_item"><a href="contact.php" title="Contact">Contact</a></li>
+                        
+					</ul>
+                    
+				<!--END .menu-->
+				</div>
+                
+			<!--END #header-->
+			</div>
+
+		<!--END #header-container-->
+		</div>
 
 		<!--BEGIN #sub-header-container-->
 		<div id="sub-header-container">

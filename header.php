@@ -35,9 +35,9 @@
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 	<script type="text/javascript" src="js/superfish.js"></script>
 	<script type="text/javascript" src="js/cufon-yui.js"></script>
-	<script type="text/javascript" src="js/ChunkFive_400.font.js"></script>
+	<!--<script type="text/javascript" src="js/ChunkFive_400.font.js"></script>-->
 	<!-- The following font script reference loads the Tertre Font which supports a wider range of characters, uncomment the following line and comment the above line for it to load -->
-	<!--<script type="text/javascript" src="js/Tertre_Med_800.font.js"></script>-->
+	<script type="text/javascript" src="js/sansation.font.js"></script>
 	<script type="text/javascript" src="js/jquery.jcarousellite.pauseOnHover.min.js"></script>
 	<script type="text/javascript" src="js/jquery.innerfade.js"></script>
 	<script type="text/javascript" src="js/jquery.jqtransform.js"></script>
@@ -69,19 +69,15 @@
 						<li class="current_page_item"><a href="index.php">Home</a></li>
 							
 						<li><a href="portfolio.php" title="Portfolio">Portfolio</a>
-							<ul>
-								<li><a href="portfolio2.php" title="Kitchens">Kitchens</a></li>
-								<li><a href="portfolio3.php" title="Bathrooms">Bathrooms</a></li>
-								<li><a href="portfolio-detail.php" title="Unique Pieces">Unique Pieces</a></li>
-								<li><a href="portfolio-detail.php" title="In Progress">In Progress</a></li>
-							</ul>
+					
 						</li>
 						
-                        <li><a href="products.php" title="Products">Appliances</a>
+                        <li><a href="appliances.php" title="Appliances">Appliances</a>
 						</li>
 						<li><a href="blog.php" title="Blog">Blog</a>
 							<ul>
-								<li><a href="post.php" title="Post Detail">Post Detail</a></li>
+								<li><a href="post.php" title="Post Detail">Front-Loader Laundry Shoot-out!</a></li>
+								<li><a href="post.php" title="Post Detail">Miele Rotary Iron Review</a></li>
 							</ul>
 						</li>
 						<li><a href="contact.php" title="Contact">Contact</a></li>

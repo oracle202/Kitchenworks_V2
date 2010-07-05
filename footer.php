@@ -8,26 +8,19 @@
 		<div id="footer-widgets" class="clearfix">
 
 			<div class="footer-widget-box widget">
-				<h3>Categories</h3>
+				<h3>Partners</h3>
 				<ul>
-					<li><a href="#" title="News">News</a></li>
-					<li><a href="#" title="Featured">Featured</a></li>
-					<li><a href="#" title="Web">Web</a></li>
-					<li><a href="#" title="Print">Print</a></li>
+					<li><a href="http://www.dutchmade.com" title="Dutchmade">Dutchmade</a></li>
+					<li><a href="http://www.sorrentocabinets.com" title="Sorrento">Sorrento</a></li>
+					<li><a href="http://www.subzero.com" title="SubZero">Sub-Zero / Wolf</a></li>
+					<li><a href="http://www.vikingrange.com" title="Viking">Viking</a></li>
+					<li><a href="http://www.mieleusa.com" title="Miele">Miele</a></li>
+					<li><a href="http://www.electroluxusa.com" title="Electrolux">Electrolux</a></li>
 				</ul>
 			</div>
 
 			<div class="footer-widget-box widget">
-				<h3>Archives</h3>
-				<ul>
-					<li><a href="#" title="January 2010">January 2010</a></li>
-					<li><a href="#" title="February 2010">February 2010</a></li>
-					<li><a href="#" title="March 2010">March 2010</a></li>
-				</ul>
-			</div>
-
-			<div class="footer-widget-box widget">
-				<h3>From the blog</h3>
+				<h3>From the Blog</h3>
 				<ul>
 					<li><a href="post.php" title="I Love Typography">I Love Typography</a></li>
 					<li><a href="post.php" title="Ressonance of Fate">Ressonance of Fate</a></li>
@@ -37,15 +30,16 @@
 			</div>
 
 			<div class="footer-widget-box widget">
-				<h3>Text Widget</h3>
-				<div>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
-				</div>
-			</div>
-
-			<div class="footer-widget-box widget">
-				<h3>ThemeForest</h3>
+				<h3>Flickr Stream</h3>
 				<p><a href="http://themeforest.net/user/unisphere?ref=unisphere" title="ThemeForest"><img src="http://envato.s3.cdn.plus.org/referrer_adverts/tf_180x100_v2.gif" style="width: 164px;" alt="ThemeForest" /></a></p>
+			</div>
+			
+	
+			<div class="footer-widget-box widget">
+				<h3>Our Showroom</h3>
+				<div>
+					<p>1808 East Sunrise Blvd.<br/>Fort Lauderdale, FL 33304<br/>P 954 764 1482  |  F 954 764 4650</p>
+				</div>
 			</div>
 
 		<!--END #footer-widgets-->
@@ -62,17 +56,17 @@
 
 			<ul id="footer-pages">
 				<li><a href="index.php" title="Home">Home</a></li>
-				<li><a href="page.php" title="Templates">Templates</a></li>
-				<li><a href="portfolio.php" title="Portfolio">Portfolio</a></li>
+				<li><a href="page.php" title="Templates">Portfolio</a></li>
+				<li><a href="portfolio.php" title="Portfolio">Appliances</a></li>
 				<li><a href="blog.php" title="Blog">Blog</a></li>
 				<li><a href="contact.php" title="Contact">Contact</a></li>
 			</ul>
 
-			<p id="copyright">Copyright &copy; 2010, All rights reserved</p>
+			<p id="copyright">Copyright &copy; 2010 The Kitchenworks Inc., All rights reserved</p>
 
 			<ul id="social">
 				<li><a href="#"><img src="images/rss.png" alt="RSS" /></a></li>
-				<li><a href="http://www.twitter.com/unispheredesign"><img src="images/twitter.png" alt="Twitter" /></a></li>
+				<li><a href="http://www.twitter.com/thekitchenworks"><img src="images/twitter.png" alt="Twitter" /></a></li>
 				<li><a href="#"><img src="images/facebook.png" alt="Facebook" /></a></li>
 				<li><a href="#"><img src="images/flickr.png" alt="Flickr" /></a></li>
 				<li><a href="#"><img src="images/linkedin.png" alt="LinkedIn" /></a></li>
