@@ -7,3 +7,7 @@ changelog 0.1
 -converted existing files to html (all except contact.php)
 -configured testimonial class and added to appliance temp page
 
+changelog 0.2
+...
+-changed front page a bit, added map and testimonials
+-modified contact page
