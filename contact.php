@@ -196,7 +196,7 @@ if(isset($_POST['submitted'])) {
 					<h3>Porto Office!</h3>
 					<div>
 						<p>River Street, 534<br />4250-123 Porto, Portugal</p>
-						<p><img src="http://www.unispheredesign.com/demo/assets/vision/contact_office.jpg" class="ie6fix" alt="Porto Office" /></p>
+						<p><img src="images/contact_office.jpg" class="ie6fix" alt="Office" /></p>
 					</div>
 				</div>
 				<!--END .widget-->

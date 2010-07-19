@@ -277,7 +277,7 @@ html, body { overflow-x: hidden; }
 
 
 /* Testimonials */
-#testimonials .single-comment { margin-bottom: 70px; }
+#testimonials .single-comment { margin-bottom: 45px; }
 #testimonials .single-comment p { font-style: italic; }
 #testimonials .single-comment .person { position: absolute; bottom: -26px; left: 55px; }
 
@@ -311,7 +311,7 @@ html, body { overflow-x: hidden; }
 
 #footer-widgets-container { margin: 30px 0 0 0; padding: 0; }
 #footer-widgets { width: 920px; margin: 0 auto; }
-#footer-widgets .footer-widget-box { float: left; width: 209px; }
+#footer-widgets .footer-widget-box { float: left; width: 440px; }
 
 #footer-widgets .widget { margin: 40px 10px; }
 .ie7 #footer-widgets .widget { padding-bottom: 40px; }
