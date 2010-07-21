@@ -128,11 +128,7 @@ if(isset($_POST['submitted'])) {
 
 				<h2>Contact us</h2>
 				<span class="meta">don't forget to say hi!</span>
-				<div id="sub-header-search">
-					<form class="searchform" method="get" action="#">
-						<p><input class="search" name="s" type="text" value="" tabindex="1" /><button class="search-btn" type="submit" tabindex="2">Search</button></p>
-					</form>
-				</div>
+			
 
 			<!--END #sub-header-->
 			</div>
@@ -193,9 +189,9 @@ if(isset($_POST['submitted'])) {
 
 				<!--BEGIN .widget-->
 				<div class="widget">
-					<h3>Porto Office!</h3>
+					<h3>Our Showroom</h3>
 					<div>
-						<p>River Street, 534<br />4250-123 Porto, Portugal</p>
+						<p>1808 East Sunrise Blvd. <br />Fort Lauderdale, FL 33304<br />P  954 764 1482  |  F  954 764 4650</p>
 						<p><img src="images/contact_office.jpg" class="ie6fix" alt="Office" /></p>
 					</div>
 				</div>
@@ -215,5 +211,90 @@ if(isset($_POST['submitted'])) {
 
 		<!--END #content-->
 		</div>		
-		
-<?php include 'footer.php'; ?>
+		<!--END .container-->
+		</div>     
+
+		<!--BEGIN #footer-widgets-container-->
+		<div id="footer-widgets-container" class="clearfix">
+
+			<!--BEGIN #widget-footer-->
+			<div id="footer-widgets" class="clearfix">
+
+			
+
+				<div class="footer-widget-box widget">
+					<h3>Testimonials</h3>
+					<div id="testimonials">
+	                    <div class="single-comment">
+	                        <p>"The professionalism and sheer volume of knowledge in cabinetry design have made Kitchenworks the only place I refer my clients."</p>
+	                        <div class="comment-arrow"></div>
+	                        <div class="person"><strong>Susan Storrs</strong>, Interior Designer</div>
+	                    </div>
+		        	</div>
+					<div id="testimonials">
+	                    <div class="single-comment">
+	                        <p>"Susan and the rest of the team at The Kitchenwors are truly in a league of their own."</p>
+	                        <div class="comment-arrow"></div>
+	                        <div class="person"><strong>Dr. Joseph Arena</strong>, MD</div>
+	                    </div>
+		        	</div>
+				</div>
+
+
+				<div class="footer-widget-box widget">
+					<h3>Our Showroom</h3>
+					<div>
+						<p><img src="images/map.jpg" alt="Map" /></p>
+						<p>1808 East Sunrise Blvd.<br/>Fort Lauderdale, FL 33304<br/>P 954 764 1482  |  F 954 764 4650</p>
+					</div>
+				</div>
+
+			<!--END #footer-widgets-->
+			</div>
+
+		<!--END #footer-widgets-container-->
+		</div>
+
+		<!--BEGIN #footer-container-->
+		<div id="footer-container">
+
+			<!--BEGIN #footer-->
+			<div id="footer">
+
+				<ul id="footer-pages">
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="page.html" title="Templates">Portfolio</a></li>
+					<li><a href="portfolio.html" title="Portfolio">Appliances</a></li>
+					<li><a href="blog.html" title="Blog">Blog</a></li>
+					<li><a href="contact.html" title="Contact">Contact</a></li>
+				</ul>
+
+				<p id="copyright">Copyright &copy; 2010 The Kitchenworks Inc., All rights reserved</p>
+
+				<ul id="social">
+					<li><a href="#"><img src="images/rss.png" alt="RSS" /></a></li>
+					<li><a href="http://www.twitter.com/thekitchenworks"><img src="images/twitter.png" alt="Twitter" /></a></li>
+					<li><a href="#"><img src="images/facebook.png" alt="Facebook" /></a></li>
+					<li><a href="#"><img src="images/flickr.png" alt="Flickr" /></a></li>
+					<li><a href="#"><img src="images/linkedin.png" alt="LinkedIn" /></a></li>
+				</ul>
+
+			<!--END #footer-->
+			</div>
+
+		<!--END #footer-container-->
+		</div>
+
+		<!--[if IE 6]>
+		<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+		<script type="text/javascript">		
+			DD_belatedPNG.fix(".ie6fix");
+		</script>
+		<![endif]--> 
+
+		<script type="text/javascript" src="js/screen.js"></script>
+
+	<!--END body-->
+	</body>
+	<!--END html-->
+	</html>
